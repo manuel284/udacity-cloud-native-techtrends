@@ -1,0 +1,8 @@
+## create vagrant box
+vagrant up
+
+## connect to vagrant box
+vagrant ssh
+
+## install K3S
+curl -sfL https://get.k3s.io | sh -
