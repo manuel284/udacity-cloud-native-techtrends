@@ -21,7 +21,7 @@ jobs:
       - uses: docker/build-push-action@v2
         with:
           context: .
-          file: {context}/Dockerfile
+          file: Dockerfile
           push: true
           tags: |
             tonninski/techtrends:latest
