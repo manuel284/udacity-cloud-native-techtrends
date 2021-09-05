@@ -33,3 +33,6 @@ INFO:werkzeug - 2021-09-05 12:49:41,144, 172.17.0.1 - - [05/Sep/2021 12:49:41] "
 ERROR:root - 2021-09-05 12:49:43,137, Article 9 does not exist!
 INFO:werkzeug - 2021-09-05 12:49:43,145, 172.17.0.1 - - [05/Sep/2021 12:49:43] "GET /9 HTTP/1.1" 404 -
 INFO:werkzeug - 2021-09-05 12:50:43,082, 172.17.0.1 - - [05/Sep/2021 12:50:43] "GET / HTTP/1.1" 200 -
+
+## Docker command to stop the app from running
+docker stop techtrends
