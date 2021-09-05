@@ -6,3 +6,17 @@ vagrant ssh
 
 ## install K3S
 curl -sfL https://get.k3s.io | sh -
+
+## set root access
+sudo su -
+
+## Verify if the cluster is operational
+kubectl get node
+
+## Apply manifests
+kubectl apply -f namespace.yaml
+kubectl apply -f deploy.yaml
+kubectl apply -f service.yaml
+
+## get all resources
+kubectl get all -n sandbox
